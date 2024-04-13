@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff5e1; /* Soft peach background */
+    text-align: center;
+}
+
+header {
+    background-color: #ff9696; /* Coral header */
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 0 15px;
+    border-radius: 20px;
+    background-color: #ff9696; /* Coral button background */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.hidden {
+    display: none;
+}
+
+#message {
+    margin-top: 50px;
+    font-size: 2em;
+}
+
+/* ... existing styles ... */
+
+#question {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+/* ... existing styles ... */
